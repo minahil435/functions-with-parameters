@@ -5,8 +5,17 @@ Your code goes below.
 */
 
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Minahil';
+let greeting ='HEY';
 
-
+function multiply(thisNumber) {x = x * thisNumber}
+function modYBy(thisNumber) { y = (y % thisNumber)}
+function opposite(thisNumber) {z = thisNumber * (-1) }
+function makeFullName(thisString) {name = name + " " + thisString}
+function yellAt (thisString) {greeting = greeting + ", " + thisString + "!"}
 
 
 /*********************************************************************************************************************
